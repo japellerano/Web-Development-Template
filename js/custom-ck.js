@@ -1,0 +1,1 @@
+$("document").ready(function(){analytics.initialize({"Google Analytics":"UA-XXXXXX-XX"})});
