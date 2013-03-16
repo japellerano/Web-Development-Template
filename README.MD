@@ -1,5 +1,7 @@
-# Web Development Template  
-##### By James Pellerano
+Web Development Template  
+========================
+By James Addison Pellerano
+------------------
 ##### [jamespellerano.com](http://jamespellerano.com)
 
 **Purpose:** A easy to use template with documentation to begin a project.
