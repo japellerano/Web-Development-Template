@@ -15,4 +15,4 @@ Getting Started
 
 1. Install above software
 2. Using the command line change into the directory you want to work in
-  `cd Development && git clone https://github.com/japellerano/Web-Development-Template` 
+  `cd Development && git clone https://github.com/japellerano/Web-Development-Template projectname` 
