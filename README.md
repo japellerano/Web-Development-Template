@@ -24,4 +24,9 @@ Use With WordPress
 1. Rename *sass/master.scss* to *sass/style.scss*
 2. In *config.rb* uncomment code below the line *# Uncomment below For WordPress*
 3. Rename *index.html* to *index.php*
-4. Create to files named *header.php* and *footer.php* respectfully
+4. Create two new files named *header.php* and *footer.php* respectfully
+5. In *index.php* copy from the first line to after
+    
+    <div id="wrapper">
+    
+6.
