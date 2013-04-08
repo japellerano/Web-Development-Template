@@ -18,8 +18,10 @@ Getting Started
   `cd Development && git clone https://github.com/japellerano/Web-Development-Template projectname` 
 
 
-Use With WordPress
-------------------
+Content Management System Usage
+-------------------------------
+
+**Use With WordPress**
 
 1. Rename *sass/master.scss* to *sass/style.scss*
 2. In *config.rb* uncomment code below the line *# Uncomment below For WordPress*
@@ -27,7 +29,12 @@ Use With WordPress
 4. Create two new files named *header.php* and *footer.php* respectfully
 5. In *index.php* copy from the first line to after *<div id="wrapper">* into the *header.php* file
 6. In *index.php* copy from before *<footer>* to the end of the file into the *footer.php* file
+7. Update links to linked files in *header.php* file, see below.
 
+**Updating Header Links with WordPress**
+*Note: The link to jQuery through Google does not need to be updated!*
 
-Use With Joomla!
-----------------
+**Use With Joomla!**
+
+**Updating Header Links with Joomla**
+*Note: The link to jQuery through Google does not need to be updated!*
