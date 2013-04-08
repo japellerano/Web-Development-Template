@@ -41,3 +41,13 @@ Update To:
 
 **Updating Header Links with Joomla**  
 *Note: The link to jQuery through Google does not need to be updated!*
+
+Current:
+
+    <script src="js/custom.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
+    
+Update To:
+
+    <script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/custom.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/master.css" type="text/css" />
