@@ -28,3 +28,6 @@ Use With WordPress
 5. In *index.php* copy from the first line to after *<div id="wrapper">* into the *header.php* file
 6. In *index.php* copy from before *<footer>* to the end of the file into the *footer.php* file
 
+
+Use With Joomla!
+----------------
