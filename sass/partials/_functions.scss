@@ -1,12 +1,17 @@
 /* Custom Functions ------------------------------------ */
 /* ===================================================== */
 
-/* Media Queries Mixin --------------------------------- */
+/* ===================================================== */
+/* Media Queries --------------------------------------- */
+/* ===================================================== */
+
+/* Media Queries Settings ------------------------------ */
 $smartphone-small: 320px;
 $smartphone-large: 480px;
-$table-small: 768px;
+$tablet-small: 768px;
 $tablet-large: 1024px;
 
+/* Media Query Function -------------------------------- */
 @mixin respond-to($media) {
    @if $media == handheld {
       @media only screen and (min-width: $smartphone-small) and (max-width: $smartphone-large) {
@@ -24,3 +29,25 @@ $tablet-large: 1024px;
       }
    }
 }
+
+/* How To Use ------------------------------------------ */
+/*
+ * #wrapper {
+ *    margin: 0 auto;
+ *     
+ *    @include respond-to(handheld) {
+ *       width: 100%;
+ *    }
+ *     
+ *    @include respond-to(tablet) {
+ *       width: 98%;
+ *    }
+ *     
+ *    @include respond-to(desktop) {
+ *       width: 92%;
+ *    }
+ * }
+ */
+
+/* End Media Queries ----------------------------------- */
+/* ===================================================== */
