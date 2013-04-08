@@ -21,13 +21,21 @@ Getting Started
 Content Management System Usage
 -------------------------------
 
-**Use With WordPress**
-
-
+**Use With WordPress**  
 
 
 **Updating Header Links with WordPress**  
 *Note: The link to jQuery through Google does not need to be updated!*
+
+Current:
+  
+    <script src="js/custom.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
+  
+Update To:
+
+    <script src="<?php bloginfo('stylehseet_directory'); ?>/js/custom.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 
 **Use With Joomla!**
 
