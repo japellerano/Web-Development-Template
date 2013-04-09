@@ -15,8 +15,7 @@ Getting Started
 
 1. Install above software
 2. Using the command line change into the directory you want to work in
-
-    cd Development && git clone https://github.com/japellerano/Web-Development-Template projectname
+  `cd Development && git clone https://github.com/japellerano/Web-Development-Template projectname`
 
 
 Content Management System Usage
@@ -24,12 +23,12 @@ Content Management System Usage
 
 **Use With WordPress**
 
-1. Rename *index.html* to *index.php*  
-2. Create two new files *header.php* and *footer.php*  
-3. Copy from the top of *index.php* to just after *<div id="wrapper">* and paste it into *header.php*  
-4. Copy from the bottom of *index.php* to just above *<!-- Footer -->* and paste it into *footer.php*  
-5. In *config.rb* uncomment from line 28 to the end of the file  
-6. Update links in *header.php* in accordance with below  
+* Rename *index.html* to *index.php*  
+* Create two new files *header.php* and *footer.php*  
+* Copy from the top of *index.php* to just after *<div id="wrapper">* and paste it into *header.php*
+* Copy from the bottom of *index.php* to just above *<!-- Footer -->* and paste it into *footer.php*  
+* In *config.rb* uncomment from line 28 to the end of the file  
+* Update links in *header.php* in accordance with below  
 
 **Updating Header Links with WordPress**  
 *Note: The link to jQuery through Google does not need to be updated!*
