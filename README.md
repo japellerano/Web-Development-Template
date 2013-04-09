@@ -21,7 +21,14 @@ Getting Started
 Content Management System Usage
 -------------------------------
 
-**Use With WordPress**  
+**Use With WordPress**
+
+1. Rename *index.html* to *index.php*
+2. Create two new files *header.php* and *footer.php*
+3. Copy from the top of *index.php* to just after *<div id="wrapper">* and paste it into *header.php*
+4. Copy from the bottom of *index.php* to just above *<!-- Footer -->* and paste it into *footer.php*
+5. In *config.rb* uncomment from line 28 to the end of the file
+6. Update links in *header.php* in accordance with below
 
 
 **Updating Header Links with WordPress**  
