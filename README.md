@@ -21,6 +21,7 @@ Getting Started
 Content Management System Usage
 -------------------------------
 
+
 **Use With WordPress**
 
 * Rename *index.html* to *index.php*  
@@ -29,8 +30,6 @@ Content Management System Usage
 * Copy from the bottom of *index.php* to just above *<!-- Footer -->* and paste it into *footer.php*  
 * In *config.rb* uncomment from line 28 to the end of the file  
 * Update links in *header.php* in accordance with below  
-
-------------------------------------------
 
 **Updating Header Links with WordPress**  
 *Note: The link to jQuery through Google does not need to be updated!*
