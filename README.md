@@ -15,7 +15,8 @@ Getting Started
 
 1. Install above software
 2. Using the command line change into the directory you want to work in
-  `cd Development && git clone https://github.com/japellerano/Web-Development-Template projectname` 
+
+    cd Development && git clone https://github.com/japellerano/Web-Development-Template projectname
 
 
 Content Management System Usage
@@ -35,13 +36,13 @@ Content Management System Usage
 
 Current:
   
-    `<script src="js/custom.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/master.css" type="text/css" />`
+    <script src="js/custom.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
   
 Update To:
 
-    `<script src="<?php bloginfo('stylehseet_directory'); ?>/js/custom.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />`
+    <script src="<?php bloginfo('stylehseet_directory'); ?>/js/custom.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 
 **Use With Joomla!**
 
@@ -50,10 +51,10 @@ Update To:
 
 Current:
 
-    `<script src="js/custom.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/master.css" type="text/css" />`
+    <script src="js/custom.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
     
 Update To:
 
-    `<script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/custom.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/master.css" type="text/css" />`
+    <script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/js/custom.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/master.css" type="text/css" />
