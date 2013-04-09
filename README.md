@@ -30,6 +30,8 @@ Content Management System Usage
 * In *config.rb* uncomment from line 28 to the end of the file  
 * Update links in *header.php* in accordance with below  
 
+------------------------------------------
+
 **Updating Header Links with WordPress**  
 *Note: The link to jQuery through Google does not need to be updated!*
 
